@@ -1,0 +1,20 @@
+CHAVEIRO SERRA 24H — SITE
+
+Conteúdo:
+- index.html: site completo, responsivo e mobile-first.
+- assets/rio-hero.webp: imagem de destaque recortada da referência visual enviada.
+
+Como visualizar:
+1. Extraia o ZIP.
+2. Abra index.html no navegador.
+
+Como publicar:
+Envie index.html e a pasta assets/ para a hospedagem, mantendo a estrutura.
+
+Observações:
+- WhatsApp: wa.me/5521988059264 com mensagem inicial configurada.
+- Telefone: tel:+5521988059264.
+- Não foi incluído endereço físico.
+- Não foram inventados depoimentos individuais.
+- A nota 5,0 e as 58 avaliações estão marcadas como informações fornecidas pelo proprietário e devem ser confirmadas antes da publicação.
+- Serviços condicionais aparecem com linguagem de consulta de disponibilidade.

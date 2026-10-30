@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080909">
+  <meta name="description" content="Chaveiro Serra 24h na Zona Sul do Rio de Janeiro. Consulte pelo WhatsApp a disponibilidade para abertura de portas, fechaduras e serviços de chaveiro.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chaveiro Serra 24h | Zona Sul do Rio de Janeiro">
+  <meta property="og:description" content="Precisou de um chaveiro? Fale com a Serra pelo WhatsApp ou ligue agora.">
+  <meta property="og:image" content="assets/rio-hero.webp">
+  <title>Chaveiro Serra 24h | Zona Sul do Rio de Janeiro</title>
+  <style>
+    :root{--bg:#080909;--panel:#101212;--panel2:#151716;--gold:#f5b92f;--gold2:#ffd36b;--white:#f7f7f5;--muted:#b8bbb8;--line:#303331;--green:#08bd60;--max:1160px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:76px}
+    body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+    a{color:inherit;text-decoration:none}
+    button,a{-webkit-tap-highlight-color:transparent}
+    a:focus-visible,button:focus-visible{outline:3px solid var(--gold2);outline-offset:3px}
+    .wrap{width:min(100% - 36px,var(--max));margin-inline:auto}
+    .topbar{height:64px;display:flex;align-items:center;justify-content:space-between;gap:14px;border-bottom:1px solid #242725;background:#080909;position:sticky;top:0;z-index:20;padding-inline:18px}
+    .brand{display:flex;align-items:center;gap:9px;min-width:0}
+    .brand-mark{width:34px;height:34px;border:2px solid var(--gold);border-radius:9px 9px 5px 5px;display:grid;place-items:center;color:var(--gold);font-size:19px;flex:none}
+    .brand-copy{line-height:1.02;letter-spacing:.07em;font-size:9px;color:#fff}
+    .brand-copy strong{display:block;font-size:18px;letter-spacing:-.04em}
+    .brand-copy b{color:var(--gold);font-size:13px}
+    .brand-copy small{display:block;text-align:right;font-size:8px;letter-spacing:.08em;color:#c8c8c3;margin-top:3px}
+    .menu-btn{border:1px solid var(--line);background:#111;color:#fff;width:42px;height:42px;border-radius:10px;font-size:22px;display:grid;place-items:center}
+    .nav{display:none;position:absolute;top:63px;left:0;right:0;background:#0d0f0e;border-bottom:1px solid var(--line);padding:12px 18px 18px;flex-direction:column;gap:4px}
+    .nav.open{display:flex}
+    .nav a{padding:12px;border-radius:8px;color:#e8e8e5;font-size:14px}
+    .nav a:hover{background:#1a1c1b;color:var(--gold)}
+    .header-call{display:none;color:var(--gold);font-size:12px;font-weight:700}
+    .hero{position:relative;isolation:isolate;overflow:hidden;padding:35px 0 27px;background:#0b0d0c}
+    .hero:before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(5,7,7,.98) 0%,rgba(5,7,7,.88) 48%,rgba(5,7,7,.40) 100%),url("assets/rio-hero.webp") center 43%/cover no-repeat;opacity:.85}
+    .hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#080909 0%,transparent 42%)}
+    .eyebrow{display:flex;align-items:center;gap:8px;color:var(--gold2);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .pin{font-size:16px}
+    h1{font-size:clamp(34px,9vw,54px);line-height:1.02;letter-spacing:-.055em;margin:15px 0 13px;max-width:620px}
+    h1 em{font-style:normal;color:var(--gold)}
+    .hero p{font-size:15px;color:#e0e2df;max-width:440px;margin:0 0 22px}
+    .actions{display:grid;grid-template-columns:1fr;gap:10px;max-width:430px}
+    .btn{min-height:54px;padding:13px 17px;border-radius:12px;display:flex;align-items:center;justify-content:center;gap:10px;font-size:14px;font-weight:800;border:1px solid transparent;transition:transform .15s,background .15s}
+    .btn:active{transform:scale(.985)}
+    .btn svg{width:21px;height:21px;flex:none}
+    .btn-wa{background:var(--green);color:white;box-shadow:0 8px 24px #00a95126}
+    .btn-wa:hover{background:#06a953}
+    .btn-call{background:#0b0d0c;color:#fff;border-color:var(--gold)}
+    .btn-call svg{color:var(--gold2)}
+    .btn small{display:block;font-size:10px;font-weight:500;opacity:.88}
+    .trust-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:25px;max-width:500px}
+    .trust{border-left:1px solid #4b4636;padding-left:10px}
+    .trust:first-child{border:0;padding-left:0}
+    .trust strong{display:block;color:var(--gold);font-size:13px}
+    .trust span{display:block;color:#d3d5d1;font-size:10px;line-height:1.3}
+    section{padding:42px 0;border-top:1px solid #222624}
+    .section-kicker{font-size:10px;letter-spacing:.14em;color:var(--gold);font-weight:800;text-transform:uppercase}
+    h2{font-size:clamp(26px,6vw,38px);line-height:1.08;letter-spacing:-.04em;margin:7px 0 11px}
+    .section-intro{font-size:14px;color:var(--muted);max-width:620px;margin:0 0 22px}
+    .service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .service{background:linear-gradient(145deg,#151817,#0e1010);border:1px solid var(--line);border-radius:13px;padding:15px 13px;min-height:126px}
+    .service-icon{color:var(--gold);font-size:24px;line-height:1;margin-bottom:12px}
+    .service h3{font-size:13px;line-height:1.2;margin:0 0 5px}
+    .service p{font-size:11px;color:var(--muted);margin:0;line-height:1.35}
+    .note{font-size:11px;color:#9fa39f;margin-top:13px}
+    .benefits{display:grid;grid-template-columns:1fr;gap:10px}
+    .benefit{display:flex;gap:13px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:12px;background:#0e1010}
+    .benefit-icon{color:var(--gold);font-size:20px;line-height:1.2}
+    .benefit strong{display:block;font-size:13px}
+    .benefit span{display:block;font-size:11px;color:var(--muted);margin-top:2px}
+    .area-panel{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel)}
+    .area-image{height:150px;background:url("assets/rio-hero.webp") center 42%/cover no-repeat;position:relative}
+    .area-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#101212,transparent 70%)}
+    .area-content{padding:18px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 18px}
+    .chip{border:1px solid #4a402a;color:#f0d28b;border-radius:999px;padding:7px 11px;font-size:11px;background:#17150f}
+    .reviews-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+    .rating{border:1px solid var(--line);border-radius:12px;padding:10px 13px;text-align:center;flex:none}
+    .rating strong{display:block;font-size:25px;color:var(--gold);line-height:1.1}
+    .stars{color:var(--gold);letter-spacing:2px;font-size:13px}
+    .rating small{display:block;color:var(--muted);font-size:9px}
+    .review-placeholder{padding:17px;border:1px dashed #51452b;border-radius:12px;color:var(--muted);font-size:12px}
+    .review-placeholder strong{color:#fff;display:block;margin-bottom:5px}
+    .cta{background:linear-gradient(135deg,#19170f,#0c0e0d 68%);border:1px solid #4a3a1b;border-radius:17px;padding:25px 19px;text-align:center}
+    .cta h2{font-size:29px}
+    .cta p{font-size:13px;color:var(--muted);margin:0 auto 19px;max-width:420px}
+    .cta .actions{margin:auto}
+    footer{padding:26px 0 22px;border-top:1px solid #2b2e2c;color:#aeb2ae;font-size:11px}
+    .footer-top{display:flex;flex-direction:column;gap:16px}
+    .footer-links{display:flex;flex-wrap:wrap;gap:15px}
+    .footer-links a:hover{color:var(--gold)}
+    .copyright{border-top:1px solid #272a28;margin-top:19px;padding-top:14px;font-size:10px;color:#777d78}
+    .mobile-bar{position:fixed;z-index:30;bottom:0;left:0;right:0;display:grid;grid-template-columns:1.15fr 1fr;gap:9px;padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:rgba(7,9,8,.96);border-top:1px solid #353832;backdrop-filter:blur(12px)}
+    .mobile-bar .btn{min-height:48px;border-radius:10px;padding:9px;font-size:12px}
+    .mobile-bar .btn svg{width:18px;height:18px}
+    @media(min-width:600px){
+      body{padding-bottom:0}
+      .topbar{padding-inline:max(24px,calc((100% - var(--max))/2));height:72px}
+      .menu-btn{display:none}
+      .nav{display:flex;position:static;flex-direction:row;align-items:center;padding:0;border:0;background:transparent;gap:4px}
+      .nav a{font-size:12px;padding:10px}
+      .header-call{display:block}
+      .brand-mark{width:40px;height:40px}
+      .brand-copy strong{font-size:21px}
+      .hero{padding:65px 0 48px;min-height:490px}
+      .hero:before{background:linear-gradient(90deg,rgba(5,7,7,.98) 0%,rgba(5,7,7,.85) 43%,rgba(5,7,7,.16) 100%),url("assets/rio-hero.webp") center 43%/cover no-repeat}
+      .actions{grid-template-columns:1.1fr 1fr}
+      .trust-strip{margin-top:35px}
+      section{padding:58px 0}
+      .service-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+      .service{padding:20px;min-height:150px}
+      .service h3{font-size:15px}
+      .service p{font-size:12px}
+      .benefits{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .area-panel{display:grid;grid-template-columns:.85fr 1.15fr}
+      .area-image{height:auto;min-height:270px}
+      .area-content{padding:28px}
+      .review-placeholder{padding:22px}
+      .cta{padding:40px}
+      .cta .actions{max-width:460px}
+      .footer-top{flex-direction:row;justify-content:space-between;align-items:center}
+      .mobile-bar{display:none}
+    }
+    @media(min-width:900px){
+      .hero{min-height:560px;padding-top:85px}
+      .hero p{font-size:17px}
+      .service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .benefits{grid-template-columns:repeat(4,minmax(0,1fr))}
+      .benefit{min-height:120px;display:block}
+      .benefit-icon{display:block;margin-bottom:12px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#inicio" aria-label="Chaveiro Serra 24h, início">
+    <span class="brand-mark" aria-hidden="true">♙</span>
+    <span class="brand-copy">CHAVEIRO<strong>SERRA <b>24H</b></strong><small>ZONA SUL · RJ</small></span>
+  </a>
+  <nav class="nav" id="mainNav" aria-label="Navegação principal">
+    <a href="#servicos">Serviços</a><a href="#diferenciais">Diferenciais</a><a href="#regiao">Região</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a>
+  </nav>
+  <a class="header-call" href="tel:+5521988059264">◷ Atendimento 24h</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">☰</button>
+</header>
+
+<main>
+  <section class="hero" id="inicio" style="border:0">
+    <div class="wrap">
+      <div class="eyebrow"><span class="pin">◆</span> Zona Sul do Rio de Janeiro</div>
+      <h1>Precisou de um chaveiro? Conte com a <em>Serra.</em></h1>
+      <p>Atendimento 24 horas na Zona Sul do Rio de Janeiro. Entre em contato e consulte a disponibilidade.</p>
+      <div class="actions">
+        <a class="btn btn-wa" data-whatsapp href="#" aria-label="Chamar Chaveiro Serra pelo WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20l1.2-4.4A8.5 8.5 0 1 1 20 11.5Z"/><path d="M8.8 8.2c.3-.6.6-.6.9-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .7.5.9 1.3 1.6 2.2 2 .3.1.5.1.7-.1l.8-.9c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.5-.5.5-1.2.7-2 .6-1.1-.2-2.4-.8-3.7-2-1.2-1.1-2-2.4-2.2-3.4-.2-.8 0-1.5.4-2.2Z"/></svg>
+          <span>CHAMAR NO WHATSAPP<small>Consulte a disponibilidade</small></span>
+        </a>
+        <a class="btn btn-call" href="tel:+5521988059264">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3h4l2 5-3 2a16 16 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2Z"/></svg>
+          <span>LIGAR AGORA<small>(21) 98805-9264</small></span>
+        </a>
+      </div>
+      <div class="trust-strip" aria-label="Informações do atendimento">
+        <div class="trust"><strong>24h</strong><span>Atendimento todos os dias</span></div>
+        <div class="trust"><strong>Zona Sul</strong><span>Rio de Janeiro</span></div>
+        <div class="trust"><strong>Direto</strong><span>Fale com a equipe</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="wrap">
+      <div class="section-kicker">Como podemos ajudar</div>
+      <h2>Serviços de chaveiro</h2>
+      <p class="section-intro">Conte o que aconteceu. Nossa equipe orienta você e confirma a disponibilidade do serviço.</p>
+      <div class="service-grid">
+        <article class="service"><div class="service-icon">⌂</div><h3>Abertura de portas</h3><p>Auxílio para portas residenciais e comerciais.</p></article>
+        <article class="service"><div class="service-icon">♙</div><h3>Fechaduras</h3><p>Troca, instalação e manutenção. Consulte opções.</p></article>
+        <article class="service"><div class="service-icon">⚿</div><h3>Cópias de chaves</h3><p>Consulte modelos e disponibilidade.</p></article>
+        <article class="service"><div class="service-icon">▣</div><h3>Chaveiro automotivo</h3><p>Consulte o atendimento para seu veículo.</p></article>
+        <article class="service"><div class="service-icon">▤</div><h3>Chaves e cartões</h3><p>Soluções para condomínios, sob consulta.</p></article>
+        <article class="service"><div class="service-icon">⌑</div><h3>Fechaduras eletrônicas</h3><p>Consulte disponibilidade para seu modelo.</p></article>
+      </div>
+      <p class="note">* Serviços específicos e disponibilidade são confirmados diretamente com a equipe.</p>
+    </div>
+  </section>
+
+  <section id="diferenciais">
+    <div class="wrap">
+      <div class="section-kicker">Atendimento com clareza</div>
+      <h2>Segurança começa na conversa.</h2>
+      <p class="section-intro">Você fala diretamente com a equipe, explica sua necessidade e recebe as informações antes de confirmar o serviço.</p>
+      <div class="benefits">
+        <div class="benefit"><div class="benefit-icon">◷</div><strong>Atendimento 24 horas</strong><span>Entre em contato a qualquer hora.</span></div>
+        <div class="benefit"><div class="benefit-icon">⌖</div><strong>Foco na Zona Sul</strong><span>Informe seu bairro para consultar a cobertura.</span></div>
+        <div class="benefit"><div class="benefit-icon">☏</div><strong>Contato direto</strong><span>Converse com a equipe pelo WhatsApp ou telefone.</span></div>
+        <div class="benefit"><div class="benefit-icon">✓</div><strong>Orçamento antes</strong><span>Valores e condições alinhados antes da execução.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="regiao">
+    <div class="wrap">
+      <div class="section-kicker">Atuação regional</div>
+      <h2>Zona Sul do Rio de Janeiro</h2>
+      <p class="section-intro">Está em um desses bairros? Chame a equipe e confirme a disponibilidade para o seu endereço.</p>
+      <div class="area-panel">
+        <div class="area-image" role="img" aria-label="Vista do Rio de Janeiro ao entardecer"></div>
+        <div class="area-content">
+          <h3 style="margin:0;font-size:17px">Consulte atendimento no seu bairro</h3>
+          <div class="chips"><span class="chip">Botafogo</span><span class="chip">Copacabana</span><span class="chip">Flamengo</span><span class="chip">Humaitá</span><span class="chip">Urca</span><span class="chip">Lagoa</span><span class="chip">Ipanema</span><span class="chip">Leblon</span></div>
+          <a class="btn btn-wa" data-whatsapp href="#">CONSULTAR PELO WHATSAPP →</a>
+          <p class="note">Bairros de referência. A cobertura é confirmada caso a caso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="avaliacoes">
+    <div class="wrap">
+      <div class="section-kicker">Reputação e confiança</div>
+      <div class="reviews-head">
+        <div><h2 style="margin-bottom:4px">Avaliações no Google</h2><p class="section-intro" style="margin:0">Informações fornecidas pela empresa.</p></div>
+        <div class="rating"><strong>5,0</strong><div class="stars" aria-label="5 de 5 estrelas">★★★★★</div><small>58 avaliações*</small></div>
+      </div>
+      <div class="review-placeholder"><strong>Opiniões de clientes</strong>Os depoimentos individuais não foram incluídos porque nenhum comentário verificável foi fornecido para publicação. Consulte o perfil da empresa no Google para conferir as avaliações mais recentes.</div>
+      <p class="note">* Nota e quantidade informadas pelo proprietário; confirme os dados atuais antes de publicar.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <div class="cta">
+        <div class="section-kicker">Chaveiro Serra 24h</div>
+        <h2>Seu problema merece uma solução.</h2>
+        <p>Entre em contato, informe seu bairro e explique o serviço necessário. Vamos consultar a disponibilidade para você.</p>
+        <div class="actions">
+          <a class="btn btn-wa" data-whatsapp href="#">CHAMAR NO WHATSAPP</a>
+          <a class="btn btn-call" href="tel:+5521988059264">LIGAR (21) 98805-9264</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">♙</span>
+        <span class="brand-copy">CHAVEIRO<strong>SERRA <b>24H</b></strong><small>ZONA SUL · RJ</small></span>
+      </div>
+      <div><strong style="color:#fff">Zona Sul do Rio de Janeiro</strong><br><a href="tel:+5521988059264">(21) 98805-9264</a></div>
+      <nav class="footer-links" aria-label="Links do rodapé"><a href="#servicos">Serviços</a><a href="#regiao">Região</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a></nav>
+    </div>
+    <div class="copyright">© <span id="year"></span> Chaveiro Serra 24h. Todos os direitos reservados.</div>
+  </div>
+</footer>
+
+<div class="mobile-bar" aria-label="Contato rápido">
+  <a class="btn btn-wa" data-whatsapp href="#">WhatsApp</a>
+  <a class="btn btn-call" href="tel:+5521988059264">Ligar agora</a>
+</div>
+
+<script>
+  (() => {
+    const phone = "5521988059264";
+    const message = "Olá! Preciso de um chaveiro na Zona Sul do Rio de Janeiro. Gostaria de consultar a disponibilidade do atendimento.";
+    const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    document.querySelectorAll("[data-whatsapp]").forEach(link => {
+      link.href = waUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    });
+    const menuBtn = document.getElementById("menuBtn");
+    const nav = document.getElementById("mainNav");
+    menuBtn.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", String(open));
+      menuBtn.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+      menuBtn.textContent = open ? "×" : "☰";
+    });
+    nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      nav.classList.remove("open");
+      menuBtn.setAttribute("aria-expanded", "false");
+      menuBtn.setAttribute("aria-label", "Abrir menu");
+      menuBtn.textContent = "☰";
+    }));
+    document.getElementById("year").textContent = new Date().getFullYear();
+  })();
+</script>
+</body>
+</html>
